@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cafe-ContactPage</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav__logo">SitiffCafé</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="./index.html" class="nav__link">Home</a></li>
+            <li><a href="./menu.html" class="nav__link">Menu</a></li>
+            <li><a href="./contact.html" class="nav__link">Contact</a></li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact / Feedback Form -->
+    <div class="container py-5 mt-2 mt-md-4 mt-lg-5">
+      <div class="row g-4 align-items-start">
+        <div class="col-12 col-lg-6">
+          <h3 class="fw-bold mb-3" style="font-family: var(--second-font)">
+            Contact Us
+          </h3>
+
+          <p class="text-muted mb-4">
+            Your feedback is precious. Please leave anything you want to say to
+            us.
+          </p>
+
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label fw-semibold">Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label fw-semibold">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label fw-semibold"
+                >Message</label
+              >
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-dark px-4">Submit</button>
+          </form>
+        </div>
+
+        <!-- Location Map -->
+        <div class="col-12 col-lg-6">
+          <h3 class="fw-bold mb-3" style="font-family: var(--second-font)">
+            Our Location
+          </h3>
+
+          <div class="ratio ratio-4x3 rounded shadow-sm overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1666.7759714030287!2d145.05534876087782!3d-37.943188003411045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66c068d18ee03%3A0x5045675218cde30!2sMoorabbin%20VIC%203189!5e0!3m2!1sen!2sau!4v1763987074037!5m2!1sen!2sau"
+              loading="lazy"
+              style="border: 0"
+              allowfullscreen=""
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer
+      class="py-5 mt-5 border-top"
+      style="background-color: var(--body-second-color)"
+    >
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-md-4">
+            <h3 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              SitiffCafé
+            </h3>
+            <p class="text-muted mb-3">
+              Get updates on new drinks, seasonal desserts, and upcoming events.
+            </p>
+
+            <form class="d-flex gap-2">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-dark" type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <!-- Address -->
+          <div class="col-6 col-md-3">
+            <h6 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              Address
+            </h6>
+            <ul class="list-unstyled small fs-6">
+              <li class="text-muted">123 Brew Lane</li>
+              <li class="text-muted">Melbourne, VIC 3000</li>
+              <li class="text-muted">Australia</li>
+            </ul>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="col-6 col-md-3">
+            <h6 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              Opening Hours
+            </h6>
+            <ul class="list-unstyled small text-muted">
+              <li>Mon - Fri: 7:00 AM - 5:00 PM</li>
+              <li>Saturday: 8:00 AM - 4:00 PM</li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-12 col-md-2">
+            <h6 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              Quick Links
+            </h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="./menu.html" class="text-muted text-decoration-none"
+                  >Menu</a
+                >
+              </li>
+              <li>
+                <a href="./contact.html" class="text-muted text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="./index.html" class="text-muted text-decoration-none"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between align-items-center pt-4 mt-4 border-top"
+        >
+          <p class="small text-muted mb-0">
+            © 2025 SitiffCafé. All Rights Reserved.
+          </p>
+          <p class="small text-muted mb-0">Made with ♥ by Yan at Holmesglen</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MAIN JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>

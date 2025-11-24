@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Cafe Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav__logo">SitiffCafé</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="./index.html" class="nav__link">Home</a></li>
+            <li><a href="./menu.html" class="nav__link">Menu</a></li>
+            <li><a href="./contact.html" class="nav__link">Contact</a></li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="home">
+        <div class="home__container container">
+          <img src="./img/ufo.png" alt="ufo" class="home__ufo" />
+          <img src="./img/cloud.svg" alt="cloud" class="home__cloud" />
+
+          <div class="home__data">
+            <h3 class="home__subtitle">Ooo That feels</h3>
+            <h1 class="home__subtitle">just spinning and on...</h1>
+
+            <a href="./menu.html" class="home__button">OUR MENU</a>
+          </div>
+
+          <div class="home__images">
+            <div
+              class="home__waves-3"
+              style="background-image: url(./img/waves-3.png)"
+            ></div>
+            <div
+              class="home__waves-2"
+              style="background-image: url(./img/waves-2.png)"
+            ></div>
+            <img
+              src="./img/coffeebot.png"
+              alt="robotCoffee"
+              class="home__robot"
+            />
+            <div
+              class="home__waves-1"
+              style="background-image: url(./img/waves-1.png)"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="py-5 mt-5">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-12 col-md-6">
+            <h3
+              class="fw-bold mb-3"
+              style="
+                font-family: var(--second-font);
+                font-size: var(--h1-font-size);
+              "
+            >
+              Welcome to SitiffCafé
+            </h3>
+            <p class="text-muted mb-4 fs-5">
+              SitiffCafé is a cosy artisan café inspired by Japanese minimalism
+              and Melbourne’s vibrant coffee culture. We serve small-batch
+              roasted coffee, handcrafted pastries, and seasonal
+              desserts—crafted fresh every day.
+            </p>
+            <p class="text-muted mb-4 fs-5">
+              Whether you’re here for a quiet study session, a relaxed brunch,
+              or to try our signature Sea Salt Caramel Mocha, we’ve created a
+              warm space for you to unwind.
+            </p>
+
+            <a href="./menu.html" class="btn btn-dark px-4 py-2 rounded-pill">
+              View Menu
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <img
+              src="./img/mikesh-kaos-dUV3oohJzE8-unsplash.jpg"
+              alt="cafe interior"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer
+      class="py-5 mt-5 border-top"
+      style="background-color: var(--body-second-color)"
+    >
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-md-4">
+            <h3 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              SitiffCafé
+            </h3>
+            <p class="text-muted mb-3">
+              Get updates on new drinks, seasonal desserts, and upcoming events.
+            </p>
+
+            <form class="d-flex gap-2">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-dark" type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <!-- Address -->
+          <div class="col-6 col-md-3">
+            <h6 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              Address
+            </h6>
+            <ul class="list-unstyled small fs-6">
+              <li class="text-muted">123 Brew Lane</li>
+              <li class="text-muted">Melbourne, VIC 3000</li>
+              <li class="text-muted">Australia</li>
+            </ul>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="col-6 col-md-3">
+            <h6 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              Opening Hours
+            </h6>
+            <ul class="list-unstyled small text-muted">
+              <li>Mon - Fri: 7:00 AM - 5:00 PM</li>
+              <li>Saturday: 8:00 AM - 4:00 PM</li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-12 col-md-2">
+            <h6 class="fw-bold mb-2" style="font-family: var(--second-font)">
+              Quick Links
+            </h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="./menu.html" class="text-muted text-decoration-none"
+                  >Menu</a
+                >
+              </li>
+              <li>
+                <a href="./contact.html" class="text-muted text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="./index.html" class="text-muted text-decoration-none"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between align-items-center pt-4 mt-4 border-top"
+        >
+          <p class="small text-muted mb-0">
+            © 2025 SitiffCafé. All Rights Reserved.
+          </p>
+          <p class="small text-muted mb-0">Made with ♥ by Yan at Holmesglen</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MAIN JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
