@@ -128,7 +128,7 @@ img {
   left: 0;
   background-color: transparent;
   z-index: var(--z-fixed);
-  transition: background-color 0.4s box-shadow 0.4s;
+  transition: background-color 0.4s;
 }
 
 .nav {
